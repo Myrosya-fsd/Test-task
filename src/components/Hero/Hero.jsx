@@ -45,18 +45,13 @@ const Hero = () => {
         </svg>
       </div>
       <div className={styles.detector}>
-        <div className={styles.left}>
-          {slides.map((_, index) => (
-            <span
-              key={index}
-              className={`${styles.dot} ${
-                index === current ? styles.active : ""
-              }`}
-              onClick={() => setCurrent(index)}
-            ></span>
-          ))}
-        </div>
-        <button className={styles.close}>×</button>
+        <svg className={`${styles.union} Union`}>
+          <use xlinkHref="/public/img/symbol-defs.svg#icon-Union" />
+        </svg>
+        <div className={styles.line}></div>
+        <svg className={`${styles.clover} Clover`}>
+          <use xlinkHref="/public/img/symbol-defs.svg#icon-Clover" />
+        </svg>
       </div>
     </section>
   );

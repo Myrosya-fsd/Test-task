@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  width: 1920px;
+  max-width: 1920px;
   min-height: 468px;
   padding: 24px 60px 12px 60px;
   margin: 0 auto;
@@ -56,46 +56,33 @@
   left: 60px;
   right: 60px;
   height: 4px;
-  background: rgba(255, 255, 255, 0.3);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   z-index: 3;
-}
-
-.left {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-.dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #fff;
-  opacity: 0.6;
-  cursor: pointer;
-  transition: opacity 0.3s ease;
-}
-.dot:hover {
-  opacity: 1;
-}
-
-.active {
-  opacity: 1;
-}
-
-.close {
   background: transparent;
-  border: none;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
-  line-height: 1;
-  padding: 0;
 }
 
-.close:hover {
-  opacity: 0.7;
+.union {
+  width: 30px;
+  height: 8px;
+  cursor: pointer;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.line {
+  flex-grow: 1;
+  margin-right: 0;
+  height: 1px;
+  background: #0a0f13;
+  opacity: 0.2;
+}
+
+.clover {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  stroke: currentColor;
+  fill: currentColor;
 }
