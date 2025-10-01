@@ -1,0 +1,101 @@
+.hero {
+  position: relative;
+  width: 1920px;
+  min-height: 468px;
+  padding: 24px 60px 12px 60px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.logo {
+  display: block;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 90%;
+  letter-spacing: -0.04em;
+  color: #0a0f13;
+  margin-bottom: 131px;
+  position: relative;
+  z-index: 2;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.icon {
+  width: 40px;
+  height: 24px;
+  fill: white;
+  margin-left: 60px;
+  margin-right: 60px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.icon:hover,
+.icon:focus {
+  transform: scale(1.2);
+}
+
+.detector {
+  position: absolute;
+  bottom: 12px;
+  left: 60px;
+  right: 60px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+.left {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.dot:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
+
+.close {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
+
+.close:hover {
+  opacity: 0.7;
+}
