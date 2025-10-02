@@ -12,11 +12,6 @@ const slides = [
     title: "Test slider",
     img: "/img/Slider-2.jpg",
   },
-  {
-    id: 3,
-    title: "Test slider",
-    img: "/img/Slider-1.jpg",
-  },
 ];
 
 const Hero = () => {
@@ -32,7 +27,8 @@ const Hero = () => {
 
   return (
     <section className={styles.hero}>
-      <h1 className={styles.logo}>Logo company</h1>
+      <a className={styles.logo}>Logo company</a>
+      <h1 className={styles.visuallyHidden}>Test slider</h1>
       <div
         className={styles.slide}
         style={{ backgroundImage: `url(${slides[current].img})` }}
