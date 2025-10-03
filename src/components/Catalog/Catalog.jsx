@@ -62,7 +62,7 @@ const Catalog = () => {
           >
             Завантажити ще
             <svg className={`${styles.icon} icon-1`} width="16" height="16">
-              <use xlinkHref="/img/symbol-defs.svg#icon-icon-1" />
+              <use xlinkHref="/img/symbol-defs.svg#icon-icon-11" />
             </svg>
           </button>
         </div>

@@ -42,11 +42,11 @@ const Hero = () => {
       </div>
       <div className={styles.detector}>
         <svg className={`${styles.union} Union`}>
-          <use xlinkHref="/public/img/symbol-defs.svg#icon-Union" />
+          <use xlinkHref="/img/symbol-defs.svg#icon-Union" />
         </svg>
         <div className={styles.line}></div>
         <svg className={`${styles.clover} Clover`}>
-          <use xlinkHref="/public/img/symbol-defs.svg#icon-Clover" />
+          <use xlinkHref="/img/symbol-defs.svg#icon-Clover" />
         </svg>
       </div>
     </section>
