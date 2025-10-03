@@ -106,20 +106,14 @@
 
 .blocks {
   width: 439px;
-  height: 163px;
   margin-bottom: 84px;
-}
-
-.blockTwo {
-  height: 163px;
 }
 
 .blockThree {
   width: 439px;
-  height: 163px;
 }
 
-.blockFour {
+.block {
   height: 163px;
 }
 

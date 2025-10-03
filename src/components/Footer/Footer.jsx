@@ -14,7 +14,7 @@ const Footer = () => {
         <div className={styles.boxTop}>
           <p className={styles.title}>Контакти</p>
           <div className={styles.boxInside}>
-            <div className={styles.blocks}>
+            <div className={`${styles.blocks} ${styles.block}`}>
               <p className={styles.subtitle}>Головний офіс:</p>
               <a
                 className={styles.email}
@@ -31,7 +31,7 @@ const Footer = () => {
                 Відкрити на Google maps
               </a>
             </div>
-            <div className={styles.blockTwo}>
+            <div className={`${styles.blockTwo} ${styles.block}`}>
               <p className={styles.subtitle}>Наші соцмережі:</p>
               <div className={styles.social}>
                 <a
@@ -88,7 +88,7 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className={styles.blockThree}>
+            <div className={`${styles.blockThree} ${styles.block}`}>
               <p className={styles.subtitle}>Телефони відділів:</p>
               <div className={styles.tel}>
                 <svg className={`${styles.iconTel} icon-1`}>
@@ -109,7 +109,7 @@ const Footer = () => {
                 <p className={styles.contactsTitle}>( Бухгалтерія )</p>
               </div>
             </div>
-            <div className={styles.blockFour}>
+            <div className={`${styles.blockFour} ${styles.block}`}>
               <p className={styles.subtitle}>Email:</p>
               <a className={styles.email} href="mailto:office@smarto.ua">
                 office@smarto.ua
